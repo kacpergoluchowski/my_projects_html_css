@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --blue: rgb(0, 183, 255);
+}
+
+#container {
+    width: 100%;
+}
+
+#menu {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+
+#description > button {
+    width: 25%;
+}
+
+#menu > a {
+    display: none;
+}
+
+#description {
+    background-color: var(--blue);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#description p {
+    text-align: center;
+}
+
+.button {
+    background-color: white;
+    display: inline-block;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    padding: 20px 0;
+    margin: 20px 0 40px 0;
+}
+
+#description h2 {
+    text-align: center;
+}
+
+#description img {
+    width: 85%;
+}
+
+.categories {
+    width: 75%;
+    background-color: var(--blue);
+    border-radius: 30px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+.categories p {
+    display: none;
+}
+
+#category h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+
+.categories:active p {
+    display: block
+}
+
+#doktor {
+    width: 95%;
+}
+
+#about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.about_area {
+    background-color: var(--blue);
+    color: white;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#book > img {
+    width: 100%;
+}
+
+#lastNews {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+.articles {
+    background-color: var(--blue);
+    width: 85%;
+    margin-top: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+#lastNews img {
+    width: 100%;
+}
+
+#lastNews h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#book {
+    background-color: var(--blue);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#book button {
+    padding: 10px 30px;
+}
+
+#book p {
+    text-align: center;
+}
+
+#footer {
+    background-color: rgb(37,36,36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: white;
+    margin-top: 20px;
+    width: 75%;
+    background-color: var(--blue);
+}
